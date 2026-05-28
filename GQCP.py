@@ -126,7 +126,7 @@ def DisplayHelpMenu():
     console.print("A tool for quick genomic data summaries.", justify="center", style="italic yellow")
     console.print("\n")
 
-    usage_text = "python FASTA-Stats.py <flags> <path>"
+    usage_text = "python GQCP.py <flags> <path>"
     console.print(
         Panel(
             usage_text, 
